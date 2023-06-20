@@ -40,4 +40,5 @@ The workload templates are now created and ready to be installed on the target/t
 2. To get the password, you need kubectl access to the cluster. Run the following command to get the default password:
    `kubectl -n spektra-devtest-project-hybrid get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo`
 
-   **Note:** Replace the `spektra-devtest-project-hybrid` with the namespace associated with your project
+> **Note**
+> Replace the `spektra-devtest-project-hybrid` with the namespace associated with your project
