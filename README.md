@@ -3,4 +3,5 @@ This repository includes the list of curated applications that can be loaded as 
 
 # Supported Applications
 1. argo-cd
-2. harbor registry
+2. ingress-controller
+3. harbor registry
